@@ -1,15 +1,9 @@
 class DefaultConfig(object):
-    fold_train_dataset_path = r'D:\202211\ProjectsData\SeRenDIP-epitope'
-    fold_test_dataset_path = r'D:\202211\ProjectsData\SeRenDIP-epitope'
+    train_dataset_path = r''
+    val_dataset_path = r''
+    test_dataset_path = r''
 
-    noval_train_dataset_path = r'D:\202211\ProjectsData\HeteHomoPPI\hhc-train.pkl'
-    noval_test_dataset_path = r'D:\202211\ProjectsData\HeteHomoPPI\homo-test.pkl'
-
-    train_dataset_path = r'./data/pecan-paratope-train.pkl'
-    val_dataset_path = r'./data/pecan-paratope-val.pkl'
-    test_dataset_path = r'./data/pecan-paratope-test.pkl'
-
-    save_path = r'./models_saved/test_ep_hhc'
+    save_path = r''
 
     epochs = 100
     folds = 5
