@@ -19,7 +19,7 @@ Baidu Netdisk：https://pan.baidu.com/s/1GUO57KPy27t7UUBn8XTt1Q （Password: PBR
 ## 4. Citation
 If you are using MsPBRsP and find it helpful for PBRs prediction, we would appreciate if you could cite the following publication:
 
-[1] Shuai Lu, Yuguang Li, Xiaofei Nan*, Shoutao Zhang*. Attention-based Convolutional Neural Networks for Protein-Protein Interaction Site Prediction[C]. The 2021 IEEE International Conference on Bioinformatics and Biomedicine(BIBM2021), 2021, 141-144. DOI:10.1109/BIBM52615.2021.9669435.
+[1] Shuai Lu, Yuguang Li, Xiaofei Nan*, Shoutao Zhang*. Attention-based Convolutional Neural Networks for Protein-Protein Interaction Site Prediction[C]. The 2021 IEEE International Conference on Bioinformatics and Biomedicine (BIBM2021), 2021, 141-144. DOI:10.1109/BIBM52615.2021.9669435.
 
 [2] Yuguang Li, Shuai Lu*, Xiaofei Nan, Shoutao Zhang, Qinglei Zhou. MsPBRsP: Multi-scale Protein Binding Residues Prediction Using Language Model[J]. Doi: https://doi.org/10.1101/2023.02.26.528265.
 
