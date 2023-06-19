@@ -74,11 +74,3 @@ class A3C3GRUModel(nn.Module):
         out = self.linear2(out)
         out = torch.squeeze(out)
         return out
-
-
-if __name__ == '__main__':
-    in_data = torch.rand([151, 1024])
-    # in_ids = torch.randint(0, 150, [32])
-    m = A3C3GRUModel()
-    o = m(in_data)
-    print(o.shape)
