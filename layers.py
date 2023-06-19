@@ -32,13 +32,4 @@ class AttentionLayer(nn.Module):
         attention_out = torch.softmax(attention, dim=1).unsqueeze(1)
 
         g = torch.bmm(attention_out, x_local).squeeze(1)
-        # out = torch.cat((g, x), dim=1)
-        # return out, torch.squeeze(attention_out)
         return g
-
-
-if __name__ == '__main__':
-    in_data2 = torch.rand([151, 52])
-    m = AttentionLayer(52, 2)
-    out_data = m(in_data2)
-    print(out_data.shape)
