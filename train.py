@@ -33,11 +33,11 @@ def train(model, train_proteins, val_proteins, configs, num=1):
         for train_p in train_proteins:
             if torch.cuda.is_available():
                 # train_pbs_vertex = torch.FloatTensor(train_p['protein_feature']).cuda()
-                train_pbs_vertex = torch.FloatTensor(train_p['protein_feature_protbert_bfd']).cuda()
+                train_pbs_vertex = torch.FloatTensor(train_p['protein_feature_prottranst5xluf50']).cuda()
                 train_pbs_label = torch.LongTensor(train_p['protein_label']).cuda()
             else:
                 # train_pbs_vertex = torch.FloatTensor(train_p['protein_feature'])
-                train_pbs_vertex = torch.FloatTensor(train_p['protein_feature_protbert_bfd']).cuda()
+                train_pbs_vertex = torch.FloatTensor(train_p['protein_feature_prottranst5xluf50']).cuda()
                 train_pbs_label = torch.LongTensor(train_p['protein_label'])
 
             optimizer.zero_grad()
@@ -58,11 +58,11 @@ def train(model, train_proteins, val_proteins, configs, num=1):
         for val_p in val_proteins:
             if torch.cuda.is_available():
                 # val_pbs_vertex = torch.FloatTensor(val_p['protein_feature']).cuda()
-                val_pbs_vertex = torch.FloatTensor(val_p['protein_feature_protbert_bfd']).cuda()
+                val_pbs_vertex = torch.FloatTensor(val_p['protein_feature_prottranst5xluf50']).cuda()
                 val_pbs_label = torch.LongTensor(val_p['protein_label']).cuda()
             else:
                 # val_pbs_vertex = torch.FloatTensor(val_p['protein_feature'])
-                val_pbs_vertex = torch.FloatTensor(val_p['protein_feature_protbert_bfd'])
+                val_pbs_vertex = torch.FloatTensor(val_p['protein_feature_prottranst5xluf50'])
                 val_pbs_label = torch.LongTensor(val_p['protein_label'])
 
             optimizer.zero_grad()
