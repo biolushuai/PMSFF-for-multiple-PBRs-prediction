@@ -6,7 +6,7 @@ import numpy as np
 
 from models import A3C3GRUModel
 from train import train
-from test_threshold import test
+from test import test
 from configs import DefaultConfig
 configs = DefaultConfig()
 
