@@ -12,9 +12,9 @@ Baidu Netdisk：https://pan.baidu.com/s/1GUO57KPy27t7UUBn8XTt1Q （Password: PBR
 * Python = 3.9.10  
 * Pytorch = 1.10.2  
 * Scikit-learn = 1.0.2
-* 
-## 3. usage
 
+## 3. Usage
+.py shows an example how to generate binding residue predictions using
 
 ## 4. Citation
 If you are using MsPBRsP and find it helpful for PBRs prediction, we would appreciate if you could cite the following publication:
