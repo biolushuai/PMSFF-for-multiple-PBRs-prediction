@@ -19,10 +19,6 @@ save_path = r'./test_data'
 from models import A3C3GRUModel
 model = A3C3GRUModel()
 
-all_preds = []
-
-
-
 model_sd = torch.load(model_path)
 model.load_state_dict(model_sd)
 if torch.cuda.is_available():
