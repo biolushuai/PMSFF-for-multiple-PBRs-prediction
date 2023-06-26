@@ -10,7 +10,7 @@ print(device)
 
 model_path = r'./models_saved/models_saved_best_t5xluf_clean/model1_pr0.5127.tar'
 
-test_protein_path = r'../test_data/A0QY29.csv'
+test_protein_path = r'../test_data/A0QY29_preds.csv'
 test_protein = np.loadtxt(test_protein_path, delimiter=",", dtype=float)
 
 save_path = r'./test_data'
