@@ -6,7 +6,7 @@ Accurate prediction of protein binding residues (PBRs) is significant for the un
 
 
 ## 1. Datasets and trainded models
-The datasets used for training MsPBRsP and the trained models mentioned in our manuscrpit can be downloaded from https://pan.baidu.com/s/1GUO57KPy27t7UUBn8XTt1Q （Password: PBRS）
+The datasets used for training MsPBRsP and the trained models mentioned in our manuscrpit can be downloaded from https://pan.baidu.com/s/1R1d3ixNpBgTuCY0WvRMftQ （Password: PBRS）
 
 ## 2. Requirement
 * Python = 3.9.10  
@@ -38,6 +38,6 @@ If you are using MsPBRsP and find it helpful for PBRs prediction, we would appre
 [3] Dallago C, Schütze K, Heinzinger M, Olenyi T, Littmann M, Lu AX, Yang KK, Min S, Yoon S, Morton JT, & Rost B (2021). Learned embeddings from deep learning to visualize and predict protein sets[J]. Current Protocols, 1, e113. DOI: 10.1002/cpz1.113
 
 ## 6. Contact
-For questions and comments, feel free to contact: ielushuai@126.com.
+For questions and comments, feel free to contact: ieslu@zzu.edu.cn.
 
 
