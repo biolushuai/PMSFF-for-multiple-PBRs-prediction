@@ -6,7 +6,7 @@ Accurate prediction of protein binding residues (PBRs) is significant for the un
 
 
 ## 1. Datasets and trainded models
-The datasets used for training MsPBRsP and the trained models mentioned in our manuscrpit can be downloaded from https://pan.baidu.com/s/1R1d3ixNpBgTuCY0WvRMftQ （Password: PBRS）
+The datasets used for training PMSFF and the trained models mentioned in our manuscrpit can be downloaded from https://pan.baidu.com/s/1R1d3ixNpBgTuCY0WvRMftQ （Password: PBRS）
 
 ## 2. Requirement
 * Python = 3.9.10  
@@ -14,7 +14,7 @@ The datasets used for training MsPBRsP and the trained models mentioned in our m
 * Scikit-learn = 1.0.2
 
 ## 3. Usage
-develop_mspbrsp.py provides the code to reproduce the MsPBRsP (hyperparameters can be reset in configs.py).
+develop_mspbrsp.py provides the code to reproduce the PMSFF (hyperparameters can be reset in configs.py).
 
 get_preds_single.py shows an example how to generate binding residue predictions.
 
@@ -23,7 +23,7 @@ ProtT5 embeddings can be generated using bio_embeddings (https://github.com/sacd
 We provide an example in ./test_data and the ProtT5 embedding of testing protein is saved in a csv file.
 
 ## 4. Citation
-If you are using MsPBRsP and find it helpful for PBRs prediction, we would appreciate if you could cite the following publication:
+If you are using PMSFF and find it helpful for PBRs prediction, we would appreciate if you could cite the following publication:
 
 [1] Shuai Lu, Yuguang Li, Xiaofei Nan*, Shoutao Zhang*. Attention-based Convolutional Neural Networks for Protein-Protein Interaction Site Prediction[C]. The 2021 IEEE International Conference on Bioinformatics and Biomedicine (BIBM2021), 2021, 141-144. DOI:10.1109/BIBM52615.2021.9669435.
 
