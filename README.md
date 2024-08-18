@@ -1,3 +1,6 @@
+This repository is the implementation of our Paper under review.
+
+
 # PMSFF: Protein Binding Residues Prediction through Multi-scale Feature Fusion
 
 
