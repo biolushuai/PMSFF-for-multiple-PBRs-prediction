@@ -1,5 +1,6 @@
 # PMSFF: Protein Binding Residues Prediction through Multi-scale Feature Fusion
 
+This repository is the implementation of  paper: "PMSFF: Improved protein binding residues prediction through multi-scale sequence-based feature fusion strategy", DOI:10.3390/biom14101220
 
 # Abstract
 Accurate prediction of protein binding residues (PBRs) is significant for the understanding of cellular activity and helpful for the design of novel drugs. In recent years, a lot of computational predictors based on machine learning and deep learning models are proposed to accelerate the recognition of PBRs from sequence. However, those methods are still weak in the characterization of residue feature causing low predictive accuracy and limited application range. Specifically, most methods utilize the sliding window approach, which simply concatenate several continuous residue feature vector together. This way does not explore the importance of key residues and only focuses on the local sequential environment. Moreover, an appropriate sliding window length is undetermined when using different predictive models or predicting different PBRs types which results in low predictive accuracy and limited application range. In this study, we propose a sequence-based framework that can be applied to multiple types of PBRs **P**rediciton through **M**ulti-**S**cale **F**eature **F**usion (PMSFF). We adopt a pre-trained language model ProtT5 for encoding each amino acid residue in protein sequence. To improve the sliding window approach, we construct multi-scale residue feature by utilizing multi-size windows for mining more important nerghboring residues and multi-size kernels for lerning information on more scales. Besides, we take a protein sequence as one sentence and use bidirectional GRU for learning global semantic information. We collect and reorganize a series of benchmark datasets including various kinds of PBRs, and PMSFF is trained and evaluated on them. Compared with existing state-of-the-art methods, PMSFF achieves superior performance on most PBRs prediction task.
@@ -28,6 +29,8 @@ If you are using PMSFF and find it helpful for PBRs prediction, we would appreci
 [1] Shuai Lu, Yuguang Li, Xiaofei Nan*, Shoutao Zhang*. Attention-based Convolutional Neural Networks for Protein-Protein Interaction Site Prediction[C]. The 2021 IEEE International Conference on Bioinformatics and Biomedicine (BIBM2021), 2021, 141-144. DOI:10.1109/BIBM52615.2021.9669435.
 
 [2] Yuguang Li, Shuai Lu*, Qiang Ma, Xiaofei Nan, Shoutao Zhang. Protein-Protein Interaction Site Prediction Based on Attention Mechanism and Convolutional Neural Networks[J]. Doi: 10.1109/TCBB.2023.3323493.
+
+[3] 
 
 
 ## 5. References
