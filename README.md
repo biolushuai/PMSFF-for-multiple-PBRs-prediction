@@ -30,7 +30,7 @@ If you are using PMSFF and find it helpful for PBRs prediction, we would appreci
 
 [2] Yuguang Li, Shuai Lu*, Qiang Ma, Xiaofei Nan, Shoutao Zhang. Protein-Protein Interaction Site Prediction Based on Attention Mechanism and Convolutional Neural Networks[J]. Doi: 10.1109/TCBB.2023.3323493.
 
-[3] 
+[3] Yuguang Li, Xiaofei Nan, Shoutao Zhang, Qinglei Zhou, Shuai Lu*, Zhen Tian*. PMSFF: Improved Protein Binding Residues Prediction Through Multi-scale Sequence-based Feature Fusion Strategy[J]. Biomolecules, 2024, 14(10): 1220.
 
 
 ## 5. References
